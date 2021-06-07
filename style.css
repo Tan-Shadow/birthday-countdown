@@ -40,3 +40,25 @@ h2 {
 .day, .hour, .minute, .seconds {
     font-size: 3rem;
 }
+
+/* responsiveness */
+
+/* TODO: make .countdown width to 25rem  */
+/* TODO: make h2 fontsize 2rem and padding 9%  */
+/* TODO: make .day, .hour, .minute, .seconds fontsize 2rem  */
+
+@media screen and (max-width: 500px) {
+    .countdown{
+        width: 25rem;
+    }
+    h2 {
+        font-size: 2rem;
+        padding: 9%; 
+    }
+    .day,
+    .hour,
+    .minute,
+    .seconds{
+        font-size: 2rem;
+    }
+}
